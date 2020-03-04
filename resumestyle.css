@@ -1,0 +1,114 @@
+
+.container { 
+				display: grid;
+				/* rows = height/vertical, columns = width/horizontal */
+				grid-template-rows: .15fr .05fr .05fr .05fr .05fr .05fr .05fr;
+				grid-template-columns: repeat (2, 10fr);  
+				grid-template-areas: 
+				"header header "
+				"contactedu image" 
+				"skills specialties"
+				"leadopp applications"
+				"experience experience"
+				"experiencetext experiencetext"
+				"footer footer";
+			}
+
+			#header { grid-area: header; }
+			#contactedu { grid-area: contactedu; }
+			#image { grid-area: image; }
+			#skills { grid-area: skills; }
+			#specialties { grid-area: specialties; }
+			#leadopp { grid-area: leadopp; }
+			#applications { grid-area: applications; }
+			#experience { grid-area: experience; }
+			#experiencetext { grid-area: experiencetext; }
+			#footer { grid-area: footer; }
+	
+
+#image {border-style: dotted;
+		 	  padding: 9px;}
+
+#leadopp, #applications {border-top-style: dotted;
+						 border-bottom-style: dotted;
+		 	  padding: 5px;}
+
+#experiencetext {border-style: dotted;
+				 padding: 9px;}
+
+
+h1 {background-color: teal;
+    padding: 5px;}
+
+h2  {background-color: teal;
+	 padding: 5px;}
+
+
+
+.container {
+   margin:0 auto; /* this will center the page */
+   width: 800px; /*  use your width here */
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #bab86c;
+   color: white;
+   text-align: center;
+}
+
+body {
+  background-image: url("marble.jpg");
+}
+
+ul.b {
+  	list-style-type: square;
+		}
+
+body { font-family: "helvetica", serif; 
+	   font-size: 16px ; }
+
+h1 { 
+	color: white; 
+	font-family: 'Bree Serif', serif;
+	text-decoration: underline;
+	text-align: center ;}
+
+h2 {
+	color: white; 
+	font-family: 'Bree Serif', serif;
+	}
+
+h3 {
+	color: #bab86c; 
+	font-family: 'Times New Roman', serif;
+	}
+
+body { font-family: 'Assistant', sans-serif; 
+	   font-size: 16px ; }
+
+
+/* unvisited link */
+a:link {
+  color: teal;
+}
+
+/* visited link */
+a:visited {
+  color: #bab86c;
+}
+
+
+body {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
